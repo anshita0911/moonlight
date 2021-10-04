@@ -1,0 +1,297 @@
+body{
+    padding: 0px 0px 0px;
+    margin: 0px 0px 0px;
+}
+
+.first{
+    background-color: #222831;
+    padding: 0px 0px 0px;
+    margin: 0px 0px 0px;
+    height: 80px;
+    width: 100%;
+}
+.first a{
+    color: #EEEEEE;
+    text-decoration: none;
+}
+.first a:hover{
+    color: #00ADB5;
+}
+
+.logo{
+    width: 200px;
+    margin-left: 70px;
+    display: inline-block;
+    text-align: center;
+
+}
+
+.contact{
+    display: inline-block;
+    margin: 0px 5px 0px 1400px;
+    padding: 0px 5px 0px;
+    font-size: 20px;
+    width: 180px;
+    position: relative;
+    bottom: 164px;
+   
+}
+.about{
+    display: inline-block;
+    margin: 0px 170px 0px 1310px;
+    padding: 0px 0px 0px;
+    font-size: 20px;
+    width: 170px;
+    position: relative;
+    bottom: 142px;
+    
+}
+.talk{
+    display: inline-block;
+    margin: 0px 380px 0px 1210px;
+    padding: 0px 0px 0px;
+    font-size: 20px;
+    width: 170px;
+    position: relative;
+    bottom: 120px;
+    
+}
+.check{
+    display: inline-block;
+    margin: 0px 590px 0px 1110px;
+    padding: 0px 0px 0px;
+    font-size: 20px;
+    width: 170px;
+    position: relative;
+    bottom: 98px;
+   
+}
+.stats{
+    display: inline-block;
+    margin: 0px 760px 0px 1050px;
+    padding: 0px 0px 0px;
+    font-size: 20px;
+    width: 170px;
+    position: relative;
+    bottom: 75px;
+   
+}
+.mental{
+    display: inline-block;
+    margin: 0px 1385px 0px 895px;
+    padding: 0px 0px 0px;
+    font-size: 20px;
+    width: 170px;
+    position: relative;
+    bottom: 53px;
+    
+}
+.home{
+    display: inline-block;
+    margin: 0px 1310px 0px 820px;
+    padding: 0px 0px 0px;
+    font-size: 20px;
+    width: 170px;
+    position: relative;
+    bottom: 31px;
+    
+}
+
+h2{
+    color: #EEEEEE;
+    padding: 0px 0px 0px;
+    margin: 0px 0px 0px;
+    display: inline-block;
+    font-family: 'Scheherazade New', serif;
+    height: 31px;
+    text-shadow: 2px 2px 5PX #00ADB5;
+    position: relative;
+    top: 8px;
+    
+    
+}
+h3{
+    color: #EEEEEE;
+    padding: 0px 0px 0px;
+    margin: 0px 0px 0px;
+    display: inline-block;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 17px;
+    position: relative;
+    top: 10px;
+}
+span{
+    text-shadow: 2px 2px 5PX #EEEEEE;
+}
+#home{
+    position: relative;
+}
+.boy{
+    height: 600px;
+    width: 100%;
+    display: inline-block;
+}
+.textbox{
+    
+    position: absolute;
+    top: 180px;
+    left: 450px;
+    text-align: center;
+    height: 240px;
+    width: 40%;
+    display: inline-block;
+    background-color: rgb(34,40,49,.6);
+    margin: 0px 0px 0px;
+    padding: 20px 20px;
+    border: 0px 0px 0px;
+}
+div.textbox {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+p{
+    color: #EEEEEE;
+    font-size: 25px;
+    padding: 5px;
+  
+}
+.dep{
+    height: 350px;
+    width: 50%;
+    display: inline-block;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    border-style: inherit;
+}
+div.dep{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.bip{
+    height: 350px;
+    width: 50%;
+    display: inline-block;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    position: relative;
+    left: 760px;
+    bottom: 760px;
+}
+div.bip{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.mental1a a{
+    color: #EEEEEE;
+    position: relative;
+    left: 30px;
+    bottom: 40px;
+    font-size: 23px;
+    display: inline-block;
+}
+.mental1a a:hover{
+    color: #00ADB5;
+}
+.mental1a{
+    color: rgb(0, 173, 181 .5);
+}
+.mental1b a{
+    color: #EEEEEE;
+    position: relative;
+    left: 800px;
+    bottom: 800px;
+    font-size: 23px;
+    display: inline-block;
+}
+.mental1b a:hover{
+    color: #00ADB5;
+}
+.mental1b{
+    color: rgb(0, 173, 181 .5);
+
+}
+
+
+.mental1c a{
+    color: #EEEEEE;
+    position: relative;
+    left: 530px;
+    bottom: 420px;
+    font-size: 23px;
+    display: inline-block;
+}
+.mental1c a:hover{
+    color: #00ADB5;
+}
+.mental1c{
+    color: rgb(0, 173, 181 .5);
+}
+.mental1d a{
+    color: #EEEEEE;
+    position: relative;
+    left: 1400px;
+    bottom: 1300px;
+    font-size: 23px;
+    display: inline-block;
+}
+.mental1d a:hover{
+    color: #00ADB5;
+}
+.mental1d{
+    color: rgb(0, 173, 181 .5);
+
+}
+#ocd{
+    height: 350px;
+    width: 50%;
+    display: inline-block;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    position: absolute;
+    left: 0px;
+    bottom: 380px;
+    z-index: 1;
+}
+#ano{
+    height: 350px;
+    width: 50%;
+    display: inline-block;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    position: absolute;
+   
+    left: 760px;
+    bottom: 1140px;
+    z-index: 1;
+}
+.but1{
+    position: absolute;
+ 
+    right: 880px;
+    top: 1050px;
+    background-color: #00ADB5;
+}
+.but2{
+    position: absolute;
+
+    right: 840px;
+    top:1050px;
+    background-color: #00ADB5;
+}
+.but3{
+    position: absolute;
+
+    right: 640px;
+    top: 1050px;
+    background-color: #00ADB5;
+}
+.but4{
+    position: absolute;
+
+    right: 600px;
+    top:1050px;
+    background-color: #00ADB5;
+
+}

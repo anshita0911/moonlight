@@ -1,0 +1,63 @@
+<html>   
+   <head>
+      <title>JavaScript Animation</title> 
+
+      <style>
+          .there{
+              height: 193px;
+              width: 261px;
+              display: inline-block;
+              position: relative;
+              bottom: 5px;
+              top: 100px;
+              right: 337px;
+          }
+          #myImage{ 
+              display: inline-block;
+              position: absolute;
+              left: 100px;
+              top: 100px;
+              border: 1px solid black;
+              z-index: 1;
+          }         
+      </style>   
+
+      <script type = "text/javascript">
+         
+            var imgObj = null;
+            var animate ;
+            
+            function init() {
+               imgObj = document.getElementById('myImage');
+               imgObj.style.position= 'relative'; 
+               imgObj.style.left = '0px'; 
+            }
+            function moveRight() {
+               imgObj.style.left = parseInt(imgObj.style.left) + 10 + 'px';
+               animate = setTimeout(moveRight,10);    // call moveRight in 10msec
+            }
+            function stop() {
+               clearTimeout(animate);
+               imgObj.style.left = '0px'; 
+            }
+            
+            window.onload = init;
+         
+      </script>
+   </head>
+   
+   <body>   
+       <div class="here">
+           
+        
+        <img id = "myImage" src = "bipolar.jpg" />
+            
+         
+
+         <img class="there" src="depression.jpg" alt="">
+         <input type = "button" value = "<<" onclick = "moveRight();" />
+         <input type = "button" value = ">>" onclick = "stop();" />
+       </div>
+           
+   </body>
+</html>
