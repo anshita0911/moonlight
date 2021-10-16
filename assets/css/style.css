@@ -1,13 +1,4 @@
-/**
-* Template Name: OnePage - v4.5.0
-* Template URL: https://bootstrapmade.com/onepage-multipurpose-bootstrap-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
 body {
   font-size:  20px;
   color: #ffffff;
@@ -204,8 +195,8 @@ span{
   line-height: 0;
   margin-left: 5px;
 }
-.navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
-  color: #2487ce;
+.navbar a:hover, .navbar .active:focus, .navbar li:hover > a {
+  color: #00ADB5;
 }
 .navbar .getstarted, .navbar .getstarted:focus {
   background: #2487ce;
