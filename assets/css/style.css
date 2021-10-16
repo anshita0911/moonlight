@@ -11,6 +11,8 @@
 body {
   font-size:  20px;
   color: #ffffff;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 a {
@@ -204,9 +206,7 @@ span{
   line-height: 0;
   margin-left: 5px;
 }
-.navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
-  color: #2487ce;
-}
+
 .navbar .getstarted, .navbar .getstarted:focus {
   background: #2487ce;
   padding: 8px 20px;
