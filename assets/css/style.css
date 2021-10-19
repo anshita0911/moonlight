@@ -565,8 +565,8 @@ div.textbox1 {
   box-shadow: 5px 5px 14px #0c8ea8;
   font-family: Arial;
   color: #ffffff;
-  font-size: 35px;
-  padding: 27px 33px 27px 33px;
+  font-size: 55px;
+  padding: 37px 43px 37px 43px;
   text-decoration: none;
   position: absolute;
   left: 740px;
@@ -583,3 +583,4 @@ div.textbox1 {
   background-image: linear-gradient(to bottom, #98f3f5, #13c2ab);
   text-decoration: none;
 }
+
