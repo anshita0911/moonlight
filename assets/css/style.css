@@ -550,6 +550,11 @@ div.textbox1 {
   color: #393E46;
   font-weight: bolder;
 }
+.talk{
+  background-color: #222831;
+  margin-top: 40px;
+  padding-top: 40px;
+}
 .btn {
   background: #34d989;
   background-image: -webkit-linear-gradient(top, #34d989, #00aba8);
