@@ -550,13 +550,20 @@ div.textbox1 {
   color: #393E46;
   font-weight: bolder;
 }
-.talk{
+
+
+#talk{
   background-color: #222831;
-  margin-top: 40px;
-  padding-top: 40px;
+  position: absolute;
+  top: 1830px;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-bottom: 40px;
+ 
 }
 .btn {
-  background: #34d989;
+  background: #00adb5;
   background-image: -webkit-linear-gradient(top, #34d989, #00aba8);
   background-image: -moz-linear-gradient(top, #34d989, #00aba8);
   background-image: -ms-linear-gradient(top, #34d989, #00aba8);
@@ -574,7 +581,7 @@ div.textbox1 {
   padding: 37px 43px 37px 43px;
   text-decoration: none;
   position: absolute;
-  left: 740px;
+  left: 700px;
   top: 1730px;
   margin-bottom: 10px;
 }
@@ -589,3 +596,38 @@ div.textbox1 {
   text-decoration: none;
 }
 
+.img-container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  opacity: 1;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: relative;
+  top: 670px;
+  left: 50px;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.img-container:hover .image {
+  opacity: 0.3;
+}
+
+.img-container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #00ADB5;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
